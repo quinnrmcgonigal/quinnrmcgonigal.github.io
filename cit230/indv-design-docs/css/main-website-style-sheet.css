@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("webfonts/Montserrat_ExtraLight/stylesheet.css");
+
+
+
+
+
+	
+	
+	body {margin: 0px;}
+	
+	header {
+	overflow: hidden;
+	width: 100%;
+	height: 10%px;
+	background-color: #000000;
+	
+		
+		
+}
+	.nav {
+	font-family: "Montserrat ExtraLight";
+	font-size: 12px;
+	padding: 10px;
+	letter-spacing: 2px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	} 
+	
+
+	.nav > li {
+		display: inline-block;
+		padding: 0px 55px 0px 55px
+		
+	}
+	.nav > li> a {
+	text-decoration: none;
+		color: #FFFFFF
+	}
+	
+	.nav > li > a:hover {
+		color: #BFBFBF;
+		
+	}
+	
