@@ -60,7 +60,7 @@
                                 rotateControl: true
                             };
                     var map = new google.maps.Map(mapCanvas,mapOptions);
-                        var marker = new google.map.Marker({
+                        var marker = new google.maps.Marker({
                             position: myCenter
                 });
                 marker.setMap(map);
@@ -72,13 +72,13 @@
                             map.setZoom(9);
                         map.setCenter(marker.getPosition());
                         window.setTimeout(function() {
-                            map.setZone(pos);
+                            map.setZoom(pos);
                         }, 3000);
                 });
                 }
             </script>
 
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiaIc-ldOTXXEvFHM5V7AbB2JAD9wRkZc&callback=myMap"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDHkCWa1Zv-ye8u4FcqTSPI4_Se6Y_wJk&callback=myMap"></script>
         </div>
         <main class="flex-item">
             <!--<h3>(the middle column)</h3>-->
